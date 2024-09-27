@@ -19,7 +19,7 @@ st.set_page_config(
 
 with st.sidebar:
     selected=option_menu(
-        menu_title="Статистика команд по решению задач",
+        menu_title="Анализ количества и решения багов",
         options=["Общая статистика", "Статистика по просроченным задачам", 
                  "Статистика по незакрытым задачам", "Статистика по закрытию задач", "Выводы"],
         icons=["bi-caret-right-fill", "bi-caret-right-fill", "bi-caret-right-fill", "bi-caret-right-fill", "bi-caret-right-fill"],
